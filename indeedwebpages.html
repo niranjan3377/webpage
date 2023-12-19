@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niranjan- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(5,14,69);
+            color: rgb(255, 255, 255);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(77, 104, 128);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: coral;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(88,37,91);
+            height: 1.5px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: rgb(9, 0, 58);
+            border-color: aquamarine;
+            border-radius: 6px;
+            color: aliceblue;
+            font-size: 15px;
+
+        }
+
+        .rightSection img {
+            width: 55%;
+        }
+
+        .coral {
+            color: coral;
+        }
+
+        .text-gray {
+            color: green;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.5rem;
+        }
+
+        .secondSection .box {
+            background: red;
+            width: 70vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            background: white;
+            height: 93px;
+            width: 1px;
+            margin: 0 130px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        .thirdSection {
+            max-width: 90vw;
+            margin: auto;
+            height: 15vh;
+        }
+
+        .thirdSection h1 {
+            font-size: 1.5rem;
+        }
+
+        .forthSection {
+            margin: 23px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 80vw;
+        }
+
+        .certificate {
+            width: 10%;
+            margin: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+        }
+
+
+        .certificate h2 {
+            color: white;
+            font-size: 18px;
+        }
+
+        .certificate-image {
+            max-width: 50%;
+            max-height: 50%;
+        }
+
+        .certificate:nth-child(3),
+        .certificate:nth-child(4) {
+            margin-top: 50px;
+        }
+
+        footer {
+            background-color: rgb(10, 3, 72);
+
+        }
+
+        .footer-first {
+            display: flex;
+            padding: 23px 122px;
+        }
+
+        .footer-second {
+            display: flex;
+            padding: 0px 150px;
+
+        }
+
+        .footer-second ul {
+            list-style: none;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Indeed Inspiring Infotech</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificate">Services</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                Welcome to <span class="coral">Indeed Inspiring Infotech </span>
+                <div>we design and deliver quality training solutions to enhance<span class="coral">team potential.</span></div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="indeed.jpeg" alt="">
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection" id="about">
+            
+            <h1>What we Offer</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="downloaded.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Trainers
+                    </div>
+                    <div class="vertical-desc">
+                        We share trainers on requirements.
+                       
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="downloaded.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Trainings
+                    </div>
+                    <div class="vertical-desc">
+                        We deliver corporate trainings
+                        
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="cet.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                       Courses
+                    </div>
+                    <div class="vertical-desc">
+                        Courses like Data Science Program are the goto courses with us.
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div class="thirdSection" id="Our Collaborations">
+            
+                <h1>Our Collaborations</h1>
+            </div>
+        </section>
+
+        <section class="forthSection">
+            <div class="Our Collaborations">
+                <h2>>Ajeenkya Dy Patil School of Engineering</h2>
+                
+            </div>
+            <div class="Our Collaborations">
+                <h2>>MIT WPU</h2>
+                
+            </div>
+            <div class="Our Collaborations">
+                <h2>>AISSMS</h2>
+                
+            </div>
+            <div class="Our Collaborations">
+                <h2>>GH Raisoni COE</h2>
+                
+            </div>
+        </section>
+
+
+    </main>
+    <footer id="contact">
+        <div class="flex">
+            <div class="footer-first">
+                <h3>Contact us</h3>
+
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Mail: hr@indeedinspiring.com</li>
+                
+                </ul>
+            </div>
+            <div class="footer-third">
+
+            </div>
+            <div class="footer-fourth">
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; indeedinspiringinfotech.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   
+</body>
+</html>
